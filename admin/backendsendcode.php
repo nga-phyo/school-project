@@ -1,3 +1,4 @@
+
 <?php 
 
     include_once './file.php';
@@ -5,14 +6,14 @@
     $id = $_GET['id'];
     $student_id = $_GET['stid'];
 
-    $code = rand('1000','9999');
+    $code = rand('2000','30000');
 
 
    if($student_id == 0){
 
        
 
-        $sql = "UPDATE student set `student_id` = 'fed-$code' where `id` = '$id' ";
+        $sql = "UPDATE student set `student_id` = 'BKD-$code' where `id` = '$id' ";
         $result = mysqli_query($conn, $sql);
 
         if($result){
