@@ -13,7 +13,7 @@
 
 
     <!-- start list group  -->
-                <div class="col-sm-3 mb-3">
+                <div class="col-12 col-lg-3 col-md-12 col-sm-12 mb-3">
                     <div class="list-group">
                         <a href="#" class="list-group-item bg-secondary" aria-current="true">
                         The current link item
@@ -37,7 +37,7 @@
 
         
 
-            <div class="col-md-9 mb-3">
+            <div class="col-12 col-lg-9 col-md-12 col-sm-12">
 
                 <table class="table table-hover">
 

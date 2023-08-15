@@ -8,7 +8,7 @@ include_once './file.php';
 $id = $_GET['id'];
 $student_id = $_GET['stid'];
 
-    $code = rand('2000', '3000');
+    $code = rand('4000', '5000');
 
     $sql = "SELECT * FROM student where `id` = '$id'";
     $result = mysqli_query($conn, $sql);
@@ -20,13 +20,13 @@ $student_id = $_GET['stid'];
 
      if($student_id == 0){
 
-        $sql = "UPDATE student set `student_id` = 'BKD-$code' where `id` = '$id' ";
+        $sql = "UPDATE student set `student_id` = 'SWD-$code' where `id` = '$id' ";
         $result = mysqli_query($conn, $sql);
 
         if ($result) {
 
             echo "<script>window.alert('code sent success')</script>";
-            redirect('backendstudent.php');
+            redirect('softwarestudent.php');
         } else {
             echo "<script>window.alert('code sent fail')</script>";
         }

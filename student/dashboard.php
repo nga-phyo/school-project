@@ -6,7 +6,7 @@
     <!-- col-1 start -->
     <div class="row mt-5">
 
-        <div class="col-4">
+        <div class="col-12 col-lg-4 col-md-12 col-sm-12 mb-3">
             <div class="card">
                
                 <div class="card-body bg-primary-subtle">
@@ -23,7 +23,7 @@
             </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-12 col-lg-4 col-md-12 col-sm-12 mb-3">
             <div class="card ">
                
                 <div class="card-body bg-secondary">
@@ -40,7 +40,7 @@
             </div>
         </div>
         
-        <div class="col-4">
+        <div class="col-12 col-lg-4 col-md-12 col-sm-12 mb-3">
             <div class="card">
                
                 <div class="card-body bg-info-subtle">
@@ -62,9 +62,9 @@
 
 
     <!-- col-2 start -->
-    <div class="row mt-5">
+    <div class="row mt-3">
 
-        <div class="col-4">
+        <div class="col-12 col-lg-4 col-md-12 col-sm-12 mb-3">
             <div class="card">
                
                 <div class="card-body bg-warning-subtle">
@@ -81,7 +81,7 @@
             </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-12 col-lg-4 col-md-12 col-sm-12 mb-3">
             <div class="card">
                
                 <div class="card-body bg-success-subtle">
@@ -98,7 +98,7 @@
             </div>
         </div>
         
-        <div class="col-4">
+        <div class="col-12 col-lg-4 col-md-12 col-sm-12 mb-3">
             <div class="card bg-danger-subtle">
                
                 <div class="card-body ">

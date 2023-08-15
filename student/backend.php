@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row justify-content-center align-items-center mt-5">
 
-                <div class="col-8">
+                <div class="col-12 col-lg-12 col-md-12 col-sm-12">
                     <div class="card bg-warning-subtle">
                         <div class="card-header text-center">
                             <h4 class="text-primary">Backend Developer Course</h4>

@@ -91,7 +91,7 @@
 
     if(count($errors) == 0){
 
-        $sql  = "INSERT INTO student (`name`, `email`, `password`, `confirm`, `nrc-no`, `address`, `grade`,`class`) VALUES ( '$name', '$email', '$pass', '$confirm', '$nrc', '$address', '$grade', '$class')";
+        $sql  = "INSERT INTO student (`name`, `email`, `password`, `confirm`, `nrc-no`, `address`, `grade`,`class`,`student_id`) VALUES ( '$name', '$email', '$pass', '$confirm', '$nrc', '$address', '$grade', '$class','0')";
 
         $result = mysqli_query($conn ,$sql);
         

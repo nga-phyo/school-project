@@ -7,7 +7,7 @@
     <!-- row 1 start -->
     <div class="row mt-5">
 
-        <div class="col-4">
+        <div class="col-12 col-lg-4 col-md-12 col-sm-12 mb-3">
             <div class="card">
 
                 <div class="card-body bg-primary-subtle">
@@ -15,14 +15,14 @@
                 </div>
                 <div class="card-footer bg-primary p-0">
                     <div class="d-grid">
-                        <a href="./wed.php" class="btn btn-primary btn-sm " target="_blank"><i class="fa-solid fa-eye"></i> View Details </a>
+                        <a href="./yourcourse.php" class="btn btn-primary btn-sm "><i class="fa-solid fa-eye"></i> View Details </a>
                     </div>
                 </div>
 
             </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-12 col-lg-4 col-md-12 col-sm-12 mb-3">
             <div class="card">
 
                 <div class="card-body bg-primary-subtle">
@@ -30,14 +30,14 @@
                 </div>
                 <div class="card-footer bg-primary p-0">
                     <div class="d-grid">
-                        <a href="./videorecord.php" class="btn btn-primary btn-sm "><i class="fa-solid fa-eye"></i> View Details </a>
+                        <a href="./record.php" class="btn btn-primary btn-sm "><i class="fa-solid fa-eye"></i> View Details </a>
                     </div>
                 </div>
 
             </div>
         </div>
 
-        <div class="col-4">
+        <div class="col-12 col-lg-4 col-md-12 col-sm-12 mb-3">
             <div class="card">
 
                 <div class="card-body bg-primary-subtle">
@@ -45,7 +45,7 @@
                 </div>
                 <div class="card-footer bg-primary p-0">
                     <div class="d-grid">
-                        <a href="./wed.php" class="btn btn-primary btn-sm " target="_blank"><i class="fa-solid fa-eye"></i> View Details </a>
+                        <a href="./monthlyproject.php" class="btn btn-primary btn-sm "><i class="fa-solid fa-eye"></i> View Details </a>
                     </div>
                 </div>
 
@@ -62,7 +62,7 @@
     <!-- row 2 start -->
     <div class="row mt-5">
 
-        <div class="col-6">
+        <div class="col-12 col-lg-6 col-md-12 col-sm-12">
             <div class="card">
                 <div class="card-header">hello</div>
                 <div class="card-body w-75">
@@ -71,7 +71,7 @@
             </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-12 col-lg-6 col-md-12 col-sm-12">
             <table class="table">
                 <thead>
                     <tr>

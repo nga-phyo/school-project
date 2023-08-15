@@ -37,7 +37,7 @@
 
         
 
-            <div class="col-md-9 mb-3">
+        <div class="col-12 col-lg-9 col-md-12 col-sm-12 mb-3">
 
                 <table class="table table-hover">
 
@@ -93,7 +93,7 @@
                         <a href="fullstacksendcode.php?id=<?php echo $ans['id'] ?> &stid=0 " class="btn btn-info"> Send Code <i class="fa-regular fa-message"></i> </i></a>
                    
                     <?php endif ?>
-                    <a href="#" class="btn btn-danger"> Kick Out <i class="fa-solid fa-right-to-bracket"></i> </i></a>
+                    <a href="#" class="btn btn-danger mt-2"> Kick Out <i class="fa-solid fa-right-to-bracket"></i> </i></a>
                 
                 </td>
                    

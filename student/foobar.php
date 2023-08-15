@@ -1,9 +1,13 @@
-<?php include_once '../header.php' ?>
+<?php 
+  session_start();
 
-<?php include_once '../navbar.php' ?>
+include_once '../header.php' ;
+
+ include_once './stbar.php' ;
 
 
-<?php include_once '../db.php' ?>
+ include_once '../db.php' ;
 
-<?php include_once '../helper.php' ?>
+ include_once '../helper.php'
+  ?>
 
