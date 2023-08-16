@@ -79,7 +79,7 @@
         $ans = mysqli_num_rows($result);
 
         if($ans > 0){
-            $errors['nrc'] = "Check your Nrc-no";
+            $errors['nrc'] = "Check your Nrc-no Please!";
         }
   
     }

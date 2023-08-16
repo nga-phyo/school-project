@@ -18,13 +18,11 @@
                         <a href="#" class="list-group-item bg-secondary" aria-current="true">
                         The current link item
                         </a>
-                        <a href="#" class="list-group-item list-group-item-action">Add School</a>
+                        <a href="#" class="list-group-item list-group-item-action"><img src="./photo/code1.jpeg" alt="" width="70" height="50"> <button>Send</button></a>
                         <a href="#" class="list-group-item list-group-item-action">School info</a>
                         <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
                         <a class="list-group-item list-group-item-action disabled">A disabled link item</a>
-                        <a href="#" class="list-group-item list-group-item-action">Add School</a>
-                        <a href="#" class="list-group-item list-group-item-action">School info</a>
-                        <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+                      
                         <a class="list-group-item list-group-item-action disabled">A disabled link item</a>
                         <a href="#" class="list-group-item list-group-item-action">Add School</a>
                         <a href="#" class="list-group-item list-group-item-action">School info</a>

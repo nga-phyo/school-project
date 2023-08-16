@@ -52,7 +52,7 @@ $st_id = $ans['id'];
 
 $i = 1;
 
-                    $sql = "SELECT * FROM record inner join student on record.class_id = student.class where student.id = '$st_id'";
+                    $sql = "SELECT * FROM record inner join student on record.class_id = student.class Inner join teacher on record.teacher_id = teacher.id where student.id = '$st_id'";
                     $result = mysqli_query($conn, $sql);
                     // $ans = mysqli_fetch_all($result,MYSQLI_ASSOC);
                     // dd($ans);
@@ -62,7 +62,7 @@ $i = 1;
 
                         $lang = $ans['lang'];
                         $record = $ans['record'];
-
+                        $name = $ans['name'];
                         $date = $ans['date'];
                         $no = $i++;
 
@@ -76,9 +76,9 @@ $i = 1;
                                     <source src="../admin/upload/day1.mp4" type="video/mp4">
                                 </video>
                             </td>
-                            <td><?php echo $record ?></td>
+                            <td><?php echo $name ?></td>
                             <td><?php echo date("j/M/Y") ?></td>
-                            <td><?php echo date('l') ?></td>
+                            <td><?php echo $record ?></td>
                             <td><a href="" class="btn btn-success btn-sm" download=" <?php echo $record ?>">Download <i class="fa-solid fa-download"></i></a></td>
                         </tr>
 

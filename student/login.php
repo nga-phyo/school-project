@@ -56,7 +56,7 @@
             'name' => $student['name'],
             'class' => $student['class'],
             'email' => $student['email'],
-            'code' => $student['student_id']
+            'student_id' => $student['student_id']
             
          
            ];
@@ -136,7 +136,9 @@
                             <br>
 
                         <div class="float-end">
-                            <button class="btn btn-secondary " type="Submit">Login </button>
+                           
+                            <a href="./getcode.php" class="btn btn-success">Get Code</a>
+                            <button class="btn btn-secondary" type="Submit">Login </button>
                         </div>
 
                     </form>

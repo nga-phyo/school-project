@@ -1,4 +1,7 @@
-<?php include_once './file.php';
+<?php 
+
+include_once './file.php';
+
 
 ?>
 
@@ -24,9 +27,9 @@
 
         if($result){
 
-            redirect('category.php');
-        }else {
             redirect('recordupload.php');
+        }else {
+            redirect('blabla.php');
         }
     }
     
@@ -70,7 +73,7 @@
                 <select name="class" class="form-control rounded-pill">
                            
 
-                            <option value="" selected disabled> Teacher Name for Upload </option>
+                            <option value="" selected disabled> Category Name for Upload </option>
                                 <?php 
                                
                                     $sql = "SELECT * FROM category";

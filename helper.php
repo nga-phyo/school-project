@@ -1,5 +1,14 @@
 <?php 
 
+
+
+function redirect($url){
+
+    header("Location: $url");
+    die();
+}
+
+
 function dd($data){
 
     echo "<pre>";
@@ -7,13 +16,5 @@ function dd($data){
     echo "</pre>";
     die();
 }
-
-
-    function redirect($url){
-
-        header("Location: $url");
-        die();
-        
-    }
 
 ?>
