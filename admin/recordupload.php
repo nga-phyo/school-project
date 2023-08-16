@@ -14,10 +14,11 @@
         $video = $_FILES['vd']['name'];
         $lang = $_POST['lang'];
         $name = $_POST['teacher'];
+        $class = $_POST['class'];
 
 
         // $sql = "INSERT INTO record (`record`,`lang`,'teacher_id') Values('$video','$lang','$name')";
-        $sql = "INSERT INTO record ( `record`, `lang`, `teacher_id`) VALUES ( '$video', '$lang', '$name');";
+        $sql = "INSERT INTO record ( `record`, `lang`, `teacher_id`,`class_id`) VALUES ( '$video', '$lang', '$name','$class');";
         $result = mysqli_query($conn, $sql);
       
 
@@ -66,6 +67,30 @@
 
                         </select><br>
 
+                <select name="class" class="form-control rounded-pill">
+                           
+
+                            <option value="" selected disabled> Teacher Name for Upload </option>
+                                <?php 
+                               
+                                    $sql = "SELECT * FROM category";
+                                    $result = mysqli_query($conn, $sql);
+                                    while($ans = mysqli_fetch_assoc($result)):  
+
+                                        $id = $ans['cat_id'];
+                                        $name = $ans['cat_name'];
+
+                                ?>
+
+                                <option value="<?php echo $id?>" ><?php echo $name ?></option>
+
+                                <?php endwhile ?>
+
+                               
+
+                        </select><br>
+
+               
                 <button class="btn btn-primary" type="submit"> Upload <i class="fa-solid fa-cloud-arrow-up"></i></button>
 
             </form>
