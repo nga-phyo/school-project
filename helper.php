@@ -17,4 +17,15 @@ function dd($data){
     die();
 }
 
+
 ?>
+
+<script>
+     function show(){
+
+        var alertBox = document.getElementsByClassName("alert-box");
+        alertbox.style.display = "none";
+     }
+     second = 5000;
+     setTimeout(show(),second);
+</script>

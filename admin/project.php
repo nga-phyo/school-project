@@ -19,7 +19,7 @@ error_reporting(0);
        if($_FILES['project']['error'] == 0){
         
         
-        move_uploaded_file($_FILES['project']['tmp_name'],'photoupload/'.$project);
+        move_uploaded_file($_FILES['project']['tmp_name'],'upload-photo/'.$project);
        }
        
         $result = mysqli_query($conn, $sql);
@@ -29,7 +29,7 @@ error_reporting(0);
 
         if($result){
 
-            redirect($_SERVER['HTTP_REFERER']);
+            redirect('project.php');
         }else {
 
             echo "<script>window.alert('falil')</script>";

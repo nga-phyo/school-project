@@ -5,6 +5,9 @@
     error_reporting(0);
 
 
+   
+
+
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
         $name = $_POST['name'];
@@ -19,15 +22,18 @@
         
         $code = $dd['student_id'];
         
-        
+       
 
         if($ans == 1){
 
            
-            echo "<script>window.alert('$code')</script>";
+            // echo "<script>window.alert('$code')</script>";
+            $_SESSION['code_message'] = $code;
+            
+            redirect('login.php');
          
         }else {
-            echo "fail";
+            echo "<script>window.alert('Check you information')</script>";
         }
 
 
@@ -76,7 +82,7 @@
                       
                         <div class="float-end">
                          
-                            <button class="btn btn-success" type="Submit">Confirm </button>
+                            <button class="btn btn-success" type="Submit" onclick="show()">Confirm </button>
                         </div>
 
                     </form>

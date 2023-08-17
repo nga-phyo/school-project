@@ -6,6 +6,7 @@
 
         $errors =[];
 
+
       
 
         if($_SERVER['REQUEST_METHOD'] == 'POST'){
@@ -57,10 +58,13 @@
             'class' => $student['class'],
             'email' => $student['email'],
             'student_id' => $student['student_id']
-            
+
          
            ];
 
+
+        
+          
       redirect('course.php');
 
         
@@ -81,7 +85,22 @@
 
 <div class="container">
     <div class="row justify-content-center align-items-center vh-100 mt-5">
+        
         <div class="col-5">
+
+        <!-- alert start -->
+
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>
+            <?php if(isset($_SESSION['code_message'])): ?>
+            <?php echo $_SESSION['code_message'] ?>
+            <?php endif ?>
+        
+        </strong> You should check in on some of those fields below.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+    <!-- alert end -->
 
             <div class="card">
                 <div class="card-header" style="background-color:lightslategrey;">
@@ -149,3 +168,5 @@
         </div>
     </div>
 </div>
+
+<?php include_once '../footer.php' ?>
