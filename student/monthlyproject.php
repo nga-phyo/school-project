@@ -56,7 +56,8 @@ if(!isset($_SESSION['auth'])){
 
                 $no = $i++;
                 $project = $ans['project_name'];
-                $subject = $ans['cat_name']
+                $subject = $ans['cat_name'];
+                $id = $ans['pj_id'];
                 
 
             ?>
@@ -66,7 +67,7 @@ if(!isset($_SESSION['auth'])){
                 <td><img src="../admin/upload-photo/<?php echo $project ?>" alt="" width="130" height="70"></td>
                 <td><?php echo $subject ?></td>
                 <td><?php echo "1Week" ?></td>
-                <td><a href="" class="btn btn-success" type="submit">Show Info</a></td>
+                <td><a href="seeproject.php?id= <?php echo $id ?>" class="btn btn-success" type="submit">Show Info</a></td>
             </tr>
 
             <?php endwhile ?>

@@ -29,7 +29,7 @@ error_reporting(0);
 
         if($result){
 
-            redirect('project.php');
+            redirect($_SERVER['HTTP_REFERER']);
         }else {
 
             echo "<script>window.alert('falil')</script>";

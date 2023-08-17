@@ -47,7 +47,7 @@
                     <th>Language</th>
                     <th>FrameWork</th>
                     <th>Teacher</th>
-                    <th>Action</th>
+                   
                     
 
                 </tr>
@@ -70,7 +70,7 @@
                     <td><?php echo $subject ?></td>
                     <td><?php echo $framework ?></td>
                     <td><?php echo $class ?></td>
-                    <td><a href="./register.php" class="btn btn-info"> Add Class <i class="fa-solid fa-book"></i></a></td>
+                   
                    
                 </tr>
 

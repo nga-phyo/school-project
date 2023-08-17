@@ -94,7 +94,7 @@
                         <a href="frontendsendcode.php?id=<?php echo $ans['id'] ?> &stid=0 " class="btn btn-info"> Send Code <i class="fa-regular fa-message"></i> </i></a>
                    
                     <?php endif ?>
-                    <a href="#" class="btn btn-danger mt-2"> Kick Out <i class="fa-solid fa-right-to-bracket"></i> </i></a>
+                    <a href="student_del.php?id= <?php echo $ans['id'] ?>" class="btn btn-danger mt-2"> Kick Out <i class="fa-solid fa-right-to-bracket"></i> </i></a>
                 
                 </td>
                   

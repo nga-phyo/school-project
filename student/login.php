@@ -89,17 +89,17 @@
         <div class="col-5">
 
         <!-- alert start -->
-
+        <?php if(isset($_SESSION['code_message'])): ?>
                 <div class="alert alert-warning alert-dismissible fade show" role="alert">
         <strong>
-            <?php if(isset($_SESSION['code_message'])): ?>
-            <?php echo $_SESSION['code_message'] ?>
-            <?php endif ?>
-        
-        </strong> You should check in on some of those fields below.
+                      
+            <?php echo  "Your Student ID Code is:". $_SESSION['code_message'] ?>
+            <?php unset($_SESSION['code_message'])  ?>
+           
+        </strong> 
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
-
+        <?php endif ?>
     <!-- alert end -->
 
             <div class="card">
